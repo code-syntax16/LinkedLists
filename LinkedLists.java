@@ -240,7 +240,7 @@ public class LinkedLists {
     }
     prev.next=null;
    }
-   public node ergeSort(node head){
+   public node MergeSort(node head){
     if(head==null || head.next==null){
         return head;
     }
